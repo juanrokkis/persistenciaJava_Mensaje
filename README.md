@@ -1,4 +1,4 @@
-# Pryecto Mensaje
+# Proyecto Mensaje
 ## _Sobre el proyecto_
 
 Este proyecto esta escrito en Java 17, utilizando el gestor de BD MySQL,
