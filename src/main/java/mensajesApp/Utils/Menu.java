@@ -1,6 +1,6 @@
 package mensajesApp.Utils;
 
-import mensajesApp.Services.MensajesService;
+import mensajesApp.Services.MensajeService;
 
 import java.util.Scanner;
 
@@ -16,24 +16,24 @@ public class Menu {
                 System.out.println("Aplicación de mensajes");
                 System.out.println("1. Crear Mensaje");
                 System.out.println("2. Listar Mensaje");
-                System.out.println("3. Editar Mensaje");
-                System.out.println("4. Eliminar Mensaje");
+                System.out.println("3. Eliminar Mensaje");
+                System.out.println("4. Editar Mensaje");
                 System.out.println("5. Salir");
 
                 option = sc.nextInt();
 
                 switch (option){
                     case 1:
-                        MensajesService.createMessage();
+                        MensajeService.createMessage();
                         break;
                     case 2:
-                        MensajesService.listMessages();
+                        MensajeService.listMessages();
                         break;
                     case 3:
-                        MensajesService.deleteMessage();
+                        MensajeService.deleteMessage();
                         break;
                     case 4:
-                        MensajesService.editMessage();
+                        MensajeService.editMessage();
                         break;
                     default:
                         break;
